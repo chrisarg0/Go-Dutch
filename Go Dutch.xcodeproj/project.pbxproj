@@ -12,6 +12,9 @@
 		01AB04C21D315E8400E45665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AB04C01D315E8400E45665 /* Main.storyboard */; };
 		01AB04C41D315E8400E45665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AB04C31D315E8400E45665 /* Assets.xcassets */; };
 		01AB04C71D315E8400E45665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AB04C51D315E8400E45665 /* LaunchScreen.storyboard */; };
+		01AB04D31D315F0700E45665 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01AB04CF1D315F0700E45665 /* SalesforceSans-Regular.ttf */; };
+		01AB04D41D315F0700E45665 /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01AB04D01D315F0700E45665 /* SalesforceSans-Light.ttf */; };
+		01AB04D51D315F0700E45665 /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01AB04D21D315F0700E45665 /* SalesforceSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		01AB04C31D315E8400E45665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AB04C61D315E8400E45665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AB04C81D315E8400E45665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AB04CF1D315F0700E45665 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SalesforceSans-Regular.ttf"; path = "../../GoDutch/Pods/DesignSystem/SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
+		01AB04D11D315F0700E45665 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "../../GoDutch/Pods/DesignSystem/SalesforceDesignSystem.bundle/en.lproj/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
+		01AB04D21D315F0700E45665 /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SalesforceSans-Bold.ttf"; path = "../../GoDutch/Pods/DesignSystem/SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		01AB04BB1D315E8400E45665 /* Go Dutch */ = {
 			isa = PBXGroup;
 			children = (
+				01AB04CE1D315EB500E45665 /* Resources */,
 				01AB04BC1D315E8400E45665 /* AppDelegate.swift */,
 				01AB04BE1D315E8400E45665 /* ViewController.swift */,
 				01AB04C01D315E8400E45665 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				01AB04C81D315E8400E45665 /* Info.plist */,
 			);
 			path = "Go Dutch";
+			sourceTree = "<group>";
+		};
+		01AB04CE1D315EB500E45665 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01AB04CF1D315F0700E45665 /* SalesforceSans-Regular.ttf */,
+				01AB04D01D315F0700E45665 /* SalesforceSans-Light.ttf */,
+				01AB04D21D315F0700E45665 /* SalesforceSans-Bold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AB04C71D315E8400E45665 /* LaunchScreen.storyboard in Resources */,
+				01AB04D51D315F0700E45665 /* SalesforceSans-Bold.ttf in Resources */,
+				01AB04D41D315F0700E45665 /* SalesforceSans-Light.ttf in Resources */,
+				01AB04D31D315F0700E45665 /* SalesforceSans-Regular.ttf in Resources */,
 				01AB04C41D315E8400E45665 /* Assets.xcassets in Resources */,
 				01AB04C21D315E8400E45665 /* Main.storyboard in Resources */,
 			);
@@ -158,6 +178,14 @@
 				01AB04C61D315E8400E45665 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01AB04D01D315F0700E45665 /* SalesforceSans-Light.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AB04D11D315F0700E45665 /* en */,
+			);
+			name = "SalesforceSans-Light.ttf";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
