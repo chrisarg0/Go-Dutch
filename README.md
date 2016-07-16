@@ -19,7 +19,7 @@ Had some trouble with these features:
 - setting a default tip value that is not the the 0 index of the segmented control 
 - begrudgingly had some trouble formatting the LaunchImage
 
-Walkthrough of all user stories:
+Walkthrough of all user stories
 
 <img src='GoDutchDemo.gif' title='Demo' width='' alt='Demo' />
 
