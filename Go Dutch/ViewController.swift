@@ -19,8 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var reminderView: UIView!
     
     override func viewDidLoad() {
+        navigationController!.navigationBar.titleTextAttributes =
+            ([NSFontAttributeName: UIFont(name: "SalesforceSans-Bold", size: 22)!,
+                NSForegroundColorAttributeName: UIColor.whiteColor()])
+        fadeIfNull()
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let font = UIFont(name: "SalesforceSans-Regular", size: 10)
@@ -36,7 +41,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onEditingChanged(sender: AnyObject) {
+    @IBAction func calculateTip(sender: AnyObject) {
+        fadeIfNull()
         billField.clearButtonMode = .WhileEditing
         
         let tipPercentages = [0.18, 0.2, 0.22]
@@ -54,8 +60,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTap(sender: AnyObject) {
-    view.endEditing(true)
+        view.endEditing(true)
     }
+    
+   
     
     func fadeIfNull() {
         if billField.text == "" {
@@ -64,6 +72,7 @@ class ViewController: UIViewController {
             self.totalLabel.alpha = 0
             self.gratuityAmountLabel.alpha = 0
             self.totalAmountLabel.alpha = 0
+            self.reminderView.alpha = 0
         } else {
             UIView.animateWithDuration(0.4, animations: {
                 self.tipControl.alpha = 1
@@ -71,6 +80,7 @@ class ViewController: UIViewController {
                 self.totalLabel.alpha = 1
                 self.gratuityAmountLabel.alpha = 1
                 self.totalAmountLabel.alpha = 1
+                self.reminderView.alpha = 1
             })
         }
     }
