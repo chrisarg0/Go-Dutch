@@ -12,7 +12,7 @@ Completed user stories:
 - Optional: set the billField as the first responder to maximize efficiency
 - Optional: added a custom reminder to tip your waiter 
 
-Walkthrough of all user stories:
+Demo of user stories:
 
 <img src='Go_Dutch_Demo.gif' title='Demo' width='' alt='Demo' />
 
