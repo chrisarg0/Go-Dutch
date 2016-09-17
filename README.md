@@ -12,13 +12,6 @@ Completed user stories:
 - Optional: set the billField as the first responder to maximize efficiency
 - Optional: added a custom reminder to tip your waiter 
 
- 
-Had some trouble with these features:
-- overriding the standard clear button with my own image
-- adding a comma when a number exceeds 3 characters
-- setting a default tip value that is not the the 0 index of the segmented control 
-- begrudgingly had some trouble formatting the Launch Image
-
 Walkthrough of all user stories:
 
 <img src='Go_Dutch_Demo.gif' title='Demo' width='' alt='Demo' />
