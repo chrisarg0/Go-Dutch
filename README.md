@@ -25,11 +25,11 @@ Completed user stories:
 * [x] Optional: created a custom settings modal using objects from Salesforce Lighting Design System 
 * [x] Optional: added toast on settings modal (once user clicks save) to communicate that the changes have been saved
 
-* [] Challenges: number formatter to place commas where appropriate
-* [] Challenges: changing the default clear icon with custom icon
-* [] Challenges: create more of a delayed animation once user updates settings. ideally there would be three distinct animations: 1) toast message appears, 2) modal exits to bottom of screen, and 3) background image fades
-* [] Challenges: making keyboard visible at all times (while on home page). when navigating from settings, I would like the keyboard to already be in its intended destination
-* [] Challenges: tried animating my splash screen with little luck
+- [] Challenges: number formatter to place commas where appropriate
+- [] Challenges: changing the default clear icon with custom icon
+- [] Challenges: create more of a delayed animation once user updates settings. ideally there would be three distinct animations: 1) toast message appears, 2) modal exits to bottom of screen, and 3) background image fades
+- [] Challenges: making keyboard visible at all times (while on home page). when navigating from settings, I would like the keyboard to already be in its intended destination
+- [] Challenges: tried animating my splash screen with little luck
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/)
