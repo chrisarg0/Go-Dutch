@@ -18,7 +18,7 @@ Completed user stories:
 * [x] Optional: used animated view properties to bring focus to bill amount text input when null
 * [x] Optional: added custom font Salesforce Sans, and changed the font colors/sizes throughout the app
 * [x] Optional: added a custom reminder that appears once a value is entered into the tip amount field
-* [x] Optional: created a custom settings modal using objects from Salesforce Lighting Design System (https://lightningdesignsystem.com/)
+* [x] Optional: created a custom settings modal using objects from Salesforce Lighting Design System 
 * [x] Optional: added toast on settings modal (once user clicks save) to communicate that the changes have been saved
 
 
@@ -26,6 +26,7 @@ Completed user stories:
 
 Demo of user stories:
 
-<img src='Go_Dutch_Demo.gif' title='Demo' width='' alt='Demo' />
+<img src='GoDutchDemo.gif' title='Demo' width='' alt='Demo' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/)
+Designs made with the Salesforce Lightning Design System (https://lightningdesignsystem.com/)
