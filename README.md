@@ -4,7 +4,7 @@ Time spent: 5 hours spent in total
 
 Completed user stories:
 
-- Required: User can enter the bill amount
+[x] Required: User can enter the bill amount
 - Required: User can select from three tip percentage options
 - Optional: added a custom icon image
 - Optional: added a custom font Salesforce Sans, and changed the font colors/sizes throughout the app
