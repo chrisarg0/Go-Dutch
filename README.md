@@ -9,6 +9,7 @@ Time spent: **7** hours spent in total
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+
 <img src='GoDutchDemo.gif' title='Demo' width='' alt='Demo' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/)
 
