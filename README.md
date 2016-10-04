@@ -22,11 +22,16 @@ Completed user stories:
 * [x] Optional: added toast on settings modal (once user clicks save) to communicate that the changes have been saved
 
 
-
-
 Demo of user stories:
 
 <img src='GoDutchDemo.gif' title='Demo' width='' alt='Demo' />
+
+Challenges:
+* [] Optional: number formatter to place commas where appropriate
+* [] Optional: changing the default clear icon with custom icon
+* [] Optional: create more of a delayed animation once user updates settings. ideally there would be three distinct animations: 1) toast message appears, 2) modal exits to bottom of screen, and 3) background image fades
+* [] Optional: making keyboard visible at all times (while on home page). when navigating from settings, I would like the keyboard to already be in its intended destination
+* [] Optional: tried animating my splash screen with little luck
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/)
 Designs made with the Salesforce Lightning Design System (https://lightningdesignsystem.com/)
