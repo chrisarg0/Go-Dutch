@@ -42,7 +42,7 @@ The following **optional(additional)** features are implemented:
 Describe any challenges encountered while building the app:
 - [ ] Challenges: number formatter to place commas where appropriate
 - [ ] Challenges: changing the default clear icon with custom icon
-- [ ] Challenges: create more of a delayed animation once user updates settings. ideally there would be three distinct animations: 1) toast message appears, 2) modal exits to bottom of screen, and 3) background image fades
+- [ ] Challenges: create more of a delayed animation once user updates their settings. ideally there would be three distinct animations: 1) toast message appears, 2) modal exits to bottom of screen, and 3) background image fades
 - [ ] Challenges: making keyboard visible at all times (while on home page). when navigating from settings, I would like the keyboard to already be in its intended destination
 - [ ] Challenges: tried animating my splash screen with little luck
 
@@ -50,7 +50,7 @@ Describe any challenges encountered while building the app:
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Chris Argonish]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
