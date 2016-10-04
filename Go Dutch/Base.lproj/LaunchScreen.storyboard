@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="GoDutchSplash" width="750" height="1334"/>
+        <image name="GoDutchSplash" width="375" height="667"/>
     </resources>
 </document>

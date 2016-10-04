@@ -33,7 +33,5 @@ class SettingsViewController: UIViewController {
         defaults.synchronize()
         dismiss(animated: true, completion: nil)
     }
-    @IBAction func didCancel(_ sender: AnyObject) {
-    }
 }
 
